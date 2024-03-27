@@ -1,7 +1,8 @@
-
+import {BackgroundImage,ContainerLogin} from '../styles/loginScreen.style'
 const LoginScreen = ()=>{
     return <div>
-        B
+        <BackgroundImage src='./background.png'/>
+        <ContainerLogin/>
     </div>
 }
 
